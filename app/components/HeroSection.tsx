@@ -36,7 +36,7 @@ export default function HeroSection() {
                     initial={{ opacity: 0, y: 10 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5, ease: [0.23, 1, 0.32, 1] }}
-                    className="text-sm font-medium text-gray-500 tracking-wide uppercase mb-6"
+                    className="text-sm font-medium text-gray-500 tracking-wide mb-6"
                 >
                     Font Picker Tool
                 </motion.p>
@@ -60,10 +60,10 @@ export default function HeroSection() {
                                 animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
                                 exit={{ opacity: 0, y: -20, filter: 'blur(4px)' }}
                                 transition={{ duration: 0.3, ease: [0.23, 1, 0.32, 1] }}
-                                className="block text-6xl md:text-8xl font-semibold text-gray-900 tracking-tight leading-none mask-b-from-60% "
+                                className="block text-6xl md:text-8xl bg-clip-text font-semibold text-neutral-800 tracking-tight leading-none mask-b-from-70% "
                                 style={{ fontFamily: currentFont.family }}
                             >
-                                Grab Any Font
+                                Type Scout
                             </motion.span>
                         </AnimatePresence>
 
@@ -74,9 +74,9 @@ export default function HeroSection() {
                             transition={{ delay: 0.3 }}
                             className="absolute -bottom-8 left-1/2 -translate-x-1/2 inline-flex items-center gap-2 text-xs font-medium text-gray-400 group-hover:text-gray-600 transition-colors duration-150"
                         >
-                            <span className="w-1.5 h-1.5 rounded-full bg-gray-300 group-hover:bg-green-400 transition-colors duration-150" />
+                            <span className="w-1.5 h-1.5 rounded-full bg-green-400 shadow-sm group-hover:bg-green-400 transition-colors animate-pulse duration-150" />
                             {currentFont.name}
-                            <span className="text-green-400">·</span>
+                            <span className="text-gray-400">·</span>
                             <span className="text-gray-400 group-hover:text-gray-500">Click to switch</span>
                         </motion.span>
                     </button>

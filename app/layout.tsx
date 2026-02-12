@@ -21,10 +21,10 @@ const geist = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "Font Grabber - Extract Fonts From Your Favourite Websites",
+  title: "TypeScout - Extract Fonts From Your Favourite Websites",
   description: "Discover and download fonts from any website. Just enter a URL and get instant access to all the fonts used.",
   openGraph: {
-    title: "Font Grabber",
+    title: "TypeScout",
     description: "Extract and download fonts from any website instantly.",
     images: [
       {
