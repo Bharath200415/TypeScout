@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     description: "Extract and download fonts from any website instantly.",
     images: [
       {
-        url: "/og-image.png",
+        url: "/cover.png",
         width: 1200,
         height: 630,
         alt: "Font Stealer OG Image",
@@ -37,9 +37,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Font Stealer",
+    title: "TypeScout",
     description: "Extract and download fonts from any website instantly.",
-    images: ["/og-image.png"],
+    images: ["/cover.png"],
   },
   icons: {
     icon: "/logo.png",
