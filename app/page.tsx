@@ -61,14 +61,14 @@ export default function Home() {
 
 
   return (
-    <main className="min-h-screen bg-neutral-800 relative">
+    <main className="min-h-screen bg-white relative">
       {/* Background Pattern */}
       <div className="fixed inset-0 h-full w-full bg-neutral-50 pointer-events-none">
         <div className="absolute h-full w-full "
             style={{
-      background: "radial-gradient(125% 125% at 50% 90%, #fff 40%, #6366f1 100%)",
+      background: "radial-gradient(125% 125% at 50% 90%,#fff 40%, #6366f1 100%)",
     }}></div>
-    <svg className="absolute inset-0 z-20 h-full w-full stroke-black/7 [mask-image:radial-gradient(75%_50%_at_top_center,white,transparent)]" aria-hidden="true"><defs><pattern id="hero" width="80" height="80" x="50%" y="-1" patternUnits="userSpaceOnUse"><path d="M.5 200V.5H200" fill="none"></path></pattern></defs><rect width="100%" height="100%" strokeWidth="0" fill="url(#hero)"></rect></svg>
+    <svg className=" absolute inset-0 z-20 h-full w-full stroke-black/7 [mask-image:radial-gradient(75%_50%_at_top_center,white,transparent)]" aria-hidden="true"><defs><pattern id="hero" width="80" height="80" x="50%" y="-1" patternUnits="userSpaceOnUse"><path d="M.5 200V.5H200" fill="none"></path></pattern></defs><rect width="100%" height="100%" strokeWidth="0" fill="url(#hero)"></rect></svg>
       </div>
 
       {/* Content */}
@@ -138,7 +138,7 @@ export default function Home() {
                 exit={{ opacity: 0 }}
                 transition={{ duration: 0.3, ease: [0.23, 1, 0.32, 1] }}
                 className="text-center py-16"
-              >
+                >
                 <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-gray-100 flex items-center justify-center">
                   <svg className="w-8 h-8 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
